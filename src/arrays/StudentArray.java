@@ -79,7 +79,7 @@ public class StudentArray {
         }
     }
 
-    //Search name by rollno
+    //Search name by roll no.
     private void searchValue(int roll){
         for (StudentArray studentArray : arr) {
             if (studentArray.getRollno() == roll) {
